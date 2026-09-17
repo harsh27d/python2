@@ -8,11 +8,7 @@ def div(a,b):
  return a / b
 num1 =int(input("Enter first number: "))
 num2 =int(input("Enter second number: "))
-print("Addition:",add(num1,num2))
-print("Subtraction:",sub(num1,num2))
-print("Multiplication:",mul(num1,num2))
-print("Division:",div(num1,num2))
-choice = int(input("Enter your choice"))
+choice = int(input("Enter your choice: "))
 match choice:
     case 1:
         print("Addition:",add(num1,num2))
